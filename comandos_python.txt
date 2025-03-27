@@ -1,0 +1,3 @@
+Verificar se você tem o Python instalado:           python --version
+Criando um arquivo python no servidor:              python helloword.py
+Executar um script Python no terminal do VSCode:    python helloword.py
