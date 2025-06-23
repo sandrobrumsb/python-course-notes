@@ -1,0 +1,24 @@
+1 - Criando um ambiente virtual:    python -m venv venv
+2 - Ativando o ambiente virtual:    .\venv\Scripts\Activate.ps1
+3 - Abrir o diretorio no vscode.    cd .
+4 - Criar um arquivo principal:     main.py
+5 - Instalando dependencias Flask:  pip install flask
+
+6 - Importar o flask no arquivo principal:  from flask import Flask
+7 - Instanciando o flask a uma variavel:    app = Flask(__name__)
+    Obs: # __name__: assume o nome do modulo principal caso nao queira dar um nome a api do flask.
+
+8 - Startar a api, deixar ela disponivel:   app.run()                        
+9 - execute o comando no terminal:          python .\main.py
+     Obs: ela estara funcionando se estiver Running on http://127.0.0.1:5000
+
+
+
+     -------------------------------------------------
+No metodo post (cadastrar) do postman:
+{
+    "id":6,
+    "marca":"Mustang",
+    "modelo":"RS4-Sport",
+    "ano":2025
+}

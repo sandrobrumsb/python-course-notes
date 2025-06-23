@@ -1,0 +1,33 @@
+O que é uma API Flask?
+
+Uma API Flask é uma aplicação feita com Flask (um microframework Python) que exponde dados ou funcionalidades via internet, sem interface gráfica**. Em vez de páginas HTML, ela responde com dados em formato JSON.
+
+
+Para que serve uma API Flask?
+Comunicar sistemas entre si
+Exemplo: Um site frontend em React precisa buscar usuários do banco de dados. A API Flask fornece esses dados em JSON.
+
+
+
+
+Arquitetura MVC com Flask
+
+Model: Representa os dados (usando SQLAlchemy, por exemplo)
+View: São as respostas da API (JSON, HTML etc.)
+Controller: As lógicas que respondem às rotas
+
+
+meu_projeto/
+│
+├── app/
+│   ├── __init__.py         # Inicializa o app Flask
+│   ├── models/
+│   │   └── user_model.py   # Modelos (ORM/SQLAlchemy)
+│   ├── controllers/
+│   │   └── user_controller.py  # Funções que respondem às rotas
+│   ├── routes/
+│   │   └── user_routes.py  # Define rotas e associa com controllers
+│   ├── config.py           # Configurações (ex: banco de dados)
+│
+├── run.py                  # Arquivo principal para rodar o app
+├── requirements.txt        # Dependências

@@ -23,7 +23,11 @@ j = frozenset(("apple", "banana", "cherry"))
 k = bool(5)	
 l = bytes(5)	
 m = bytearray(5)	
-n = memoryview(bytes(5))	
+n = memoryview(bytes(5))
+p = {
+    "name" : "John", 
+      "age" : 36
+    }	
 
 print(a,type(a))
 print(b,type(b))
@@ -39,6 +43,4 @@ print(k,type(k))
 print(l,type(l))
 print(m,type(m))
 print(n,type(n))
-
-x = {"name" : "John", "age" : 36}
-print(x,type(x))
+print(p,type(p))
