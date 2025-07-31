@@ -253,7 +253,6 @@ print(conjunto_1)  # Resultado: {'microsoft', 'banana', 'cherry', 'google'}
 ---------------------------------------
 # 9 . Lista de Métodos de Conjunto:
 ---------------------------------------
-
 | Método                          | Atalho            | Descrição                                                                                 |
 | ------------------------------- | ----------------- | ----------------------------------------------------------------------------------------- |
 | `add()`                         | não possui atalho | Adiciona um elemento ao conjunto                                                          |
