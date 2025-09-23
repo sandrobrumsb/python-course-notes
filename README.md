@@ -24,6 +24,7 @@
 - Tuplas
 - Dicionários
 - Sets (conjuntos)
+- Arrays
 
 ---
 
