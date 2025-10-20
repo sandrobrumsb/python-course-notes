@@ -1,6 +1,0 @@
-Padrão MVC: Padrão de arquitetura que separa a aplicação em 3 camadas:
-
-Model:		Manipulação dos dados da aplicação.
-View:		Interação do usuário.
-Controller:	Camada de controle, responsável por intermediar o model com o view.
-
